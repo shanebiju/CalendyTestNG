@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="calendy">
+    <listeners>
+        <listener class-name="com.automation.listeners.ReportListener"/>
+    </listeners>
+    <test name="LoginLogoutTest">
+        <classes>
+            <class name="com.automation.tests.LoginLogoutTest"/>
+        </classes>
+    </test>
+    <test name="CreateEventTest">
+        <classes>
+            <class name="com.automation.tests.CreateEventTest"/>
+        </classes>
+    </test>
+</suite>
